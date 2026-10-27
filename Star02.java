@@ -4,8 +4,8 @@ public class Star02{
     Scanner sc=new Scanner(System.in);
     System.out.print("Masukkan Nilai n : ");
     int n=sc.nextInt();
-       for (int i = 1; i <= n; i += 2) {
-       System.out.print(i + " ");
+      for (int i = 1; i <= n; i +=2) {
+       System.out.print(i + " "); 
     }
     System.out.println();
     sc.close();
